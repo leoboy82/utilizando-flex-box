@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- ... (mesmo cabeçalho) ... -->
+    <style>
+        /* Estilos CSS atualizados com Flexbox */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex: 0 0 auto;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex: 0 0 auto;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+            flex: 1;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex: 0 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marco Zero - Recife</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#images">Imagens</a>
+        <a href="#location">Localização</a>
+        <a href="pontos_turisticos.html">Pontos Turísticos</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Sobre o Marco Zero</h2>
+            <p>O Marco Zero é um dos pontos turísticos mais emblemáticos da cidade do Recife, localizado no Bairro do Recife Antigo.</p>
+            <p>Ele marca o início das estradas que partem do Recife em direção a outras cidades do estado de Pernambuco e é um local importante para eventos culturais e festivais.</p>
+        </section>
+        <section id="images">
+            <h2>Imagens</h2>
+            <img src="marco_zero.jpg" alt="Imagem do Marco Zero">
+            <p>Esta é uma imagem do belo Marco Zero à beira do rio Capibaribe.</p>
+        </section>
+        <section id="location">
+            <h2>Localização</h2>
+            <p>O Marco Zero está localizado no Recife Antigo, próximo a diversos restaurantes, bares e museus.</p>
+            <p>Endereço: Praça Rio Branco, Recife Antigo, Recife - PE, Brasil</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Marco Zero - Recife
+    </footer>
+</body>
+</html>

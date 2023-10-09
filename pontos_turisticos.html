@@ -1,0 +1,84 @@
+<!-- Em "pontos_turisticos.html" -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- ... (mesmo cabeçalho) ... -->
+    <style>
+        /* Estilos CSS atualizados com Flexbox */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex: 0 0 auto;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex: 0 0 auto;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex: 1;
+        }
+        section {
+            flex-basis: calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex: 0 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pontos Turísticos do Recife Antigo</h1>
+    </header>
+    <nav>
+        <a href="index.html">Voltar para o Marco Zero</a>
+    </nav>
+    <main>
+        <section id="point1">
+            <h2>Praça do Arsenal</h2>
+            <img src="praca_do_arsenal.jpg" alt="Imagem da Praça do Arsenal">
+            <p>A Praça do Arsenal é um espaço cultural e artístico no Recife Antigo, conhecida por abrigar o Museu de Arte Moderna Aloísio Magalhães.</p>
+        </section>
+        <section id="point2">
+            <h2>Paço do Frevo</h2>
+            <img src="paco_do_frevo.jpg" alt="Imagem do Paço do Frevo">
+            <p>O Paço do Frevo é um museu dedicado ao frevo, um dos ritmos mais tradicionais de Pernambuco. O local oferece exposições, oficinas e apresentações culturais.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Pontos Turísticos do Recife Antigo
+    </footer>
+</body>
+</html>
